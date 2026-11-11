@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "mode": "live-engine-synthetic-fixture",
+  "generated_at": "2026-11-11T12:04:44.026228+00:00",
+  "engine": {
+    "name": "OSV-Scanner",
+    "version": "2.7.1",
+    "exit_code": 1,
+    "network": "offline",
+    "database_status": "upstream-offline-scan-completed"
+  },
+  "binary_sha256": "fb7dab19a8bd9bbe5c3189f09d4b7ee1820c9553a23bac202648a56efd2f6ee8",
+  "database": {
+    "kind": "synthetic offline OSV zip; not a real vulnerability database",
+    "advisory_json_sha256": "edd80dad99c812cae5625613da8e76bde987044135363d4ef15ff1eb471b3269"
+  },
+  "input_sha256": "8e842dae6d9e49c9d9e76af986ae26f4ed42f8c42e114a5a3186562c1660e5c4",
+  "summary": {
+    "packages": 1,
+    "findings": 1,
+    "published_fixes": 1,
+    "unknown_fix_status": 0
+  },
+  "assertions": [
+    "real pinned engine executed",
+    "invented advisory matched",
+    "published synthetic fix normalized",
+    "no network/update/provider request enabled"
+  ]
+}

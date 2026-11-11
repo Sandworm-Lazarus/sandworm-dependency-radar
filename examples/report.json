@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "project": "sandworm-dependency-radar",
+  "mode": "fixture",
+  "generated_at": "2026-11-11T11:59:08.063430+00:00",
+  "input_sha256": "f856ca3c9a1583d05fde38238f02dede9a9692407e61a860b61b5887c3aa242f",
+  "database": {
+    "timestamp": null,
+    "status": "not-provided-by-import"
+  },
+  "summary": {
+    "packages": 1,
+    "findings": 1,
+    "published_fixes": 1,
+    "unknown_fix_status": 0
+  },
+  "findings": [
+    {
+      "id": "6930062aa3657be301e55e24dc9b9eda60d98d8dacd908019f9a466625d94c5b",
+      "package": {
+        "name": "example-widget",
+        "version": "1.0.0",
+        "ecosystem": "npm"
+      },
+      "advisory_id": "SANDWORM-DEMO-001",
+      "aliases": [
+        "DEMO-2026-0001"
+      ],
+      "severity_score": 7.5,
+      "fixed_versions": [
+        "1.0.1"
+      ],
+      "fix_status": "fixed-version-published",
+      "sources": [
+        "package-lock.json"
+      ]
+    }
+  ],
+  "methodology": {
+    "scope": "reported package/advisory pairs only",
+    "severity": "OSV group max_severity when supplied; otherwise null",
+    "fixed_versions": "published fixed events matching the package, not an upgrade recommendation",
+    "zero_findings": "No reported matches; this does not certify the project is secure."
+  },
+  "fixture_notice": "Synthetic packages/advisories. Not a real vulnerability assessment."
+}

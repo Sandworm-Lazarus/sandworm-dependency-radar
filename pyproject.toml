@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sandworm-dependency-radar"
+version = "0.1.0"
+description = "Sandworm local security reporting integration"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+sandworm-dependency-radar = "sandworm_radar.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sandworm_radar*"]

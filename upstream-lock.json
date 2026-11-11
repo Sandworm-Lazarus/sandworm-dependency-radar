@@ -1,0 +1,13 @@
+{
+  "platform": "linux/amd64",
+  "verified_at": "2026-11-11",
+  "tools": [
+    {
+      "repo": "google/osv-scanner",
+      "tag": "v2.7.1",
+      "asset": "osv-scanner_linux_amd64",
+      "sha256": "fb7dab19a8bd9bbe5c3189f09d4b7ee1820c9553a23bac202648a56efd2f6ee8",
+      "verified": true
+    }
+  ]
+}
